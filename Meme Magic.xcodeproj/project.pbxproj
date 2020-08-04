@@ -14,6 +14,8 @@
 		7E3F96762253E2B700355577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3F96742253E2B700355577 /* LaunchScreen.storyboard */; };
 		7E3F96812253E2B700355577 /* Meme_MagicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3F96802253E2B700355577 /* Meme_MagicTests.swift */; };
 		7E3F968C2253E2B800355577 /* Meme_MagicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3F968B2253E2B800355577 /* Meme_MagicUITests.swift */; };
+		7E3F96A0225402F100355577 /* Impacted.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3F969E225402F100355577 /* Impacted.ttf */; };
+		7E3F96A1225402F100355577 /* impact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3F969F225402F100355577 /* impact.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7E3F96872253E2B800355577 /* Meme MagicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meme MagicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3F968B2253E2B800355577 /* Meme_MagicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme_MagicUITests.swift; sourceTree = "<group>"; };
 		7E3F968D2253E2B800355577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3F969E225402F100355577 /* Impacted.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Impacted.ttf; path = ../../../../../Downloads/impact/Impacted.ttf; sourceTree = "<group>"; };
+		7E3F969F225402F100355577 /* impact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = impact.ttf; path = ../../../../../Downloads/impact/impact.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		7E3F966A2253E2B700355577 /* Meme Magic */ = {
 			isa = PBXGroup;
 			children = (
+				7E3F969B2254029000355577 /* Fonts */,
 				7E3F966B2253E2B700355577 /* AppDelegate.swift */,
 				7E3F966D2253E2B700355577 /* ViewController.swift */,
 				7E3F966F2253E2B700355577 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				7E3F968D2253E2B800355577 /* Info.plist */,
 			);
 			path = "Meme MagicUITests";
+			sourceTree = "<group>";
+		};
+		7E3F969B2254029000355577 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7E3F969F225402F100355577 /* impact.ttf */,
+				7E3F969E225402F100355577 /* Impacted.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +243,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E3F96A1225402F100355577 /* impact.ttf in Resources */,
 				7E3F96762253E2B700355577 /* LaunchScreen.storyboard in Resources */,
 				7E3F96732253E2B700355577 /* Assets.xcassets in Resources */,
 				7E3F96712253E2B700355577 /* Main.storyboard in Resources */,
+				7E3F96A0225402F100355577 /* Impacted.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
